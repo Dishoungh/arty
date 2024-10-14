@@ -1,52 +1,22 @@
-# Prerequisites
-*.d
+# General
+**/.Xil/
+**/*.o
+**/*.jou
+**/*.log
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# BuildRoot
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# PetaLinux
+PetaLinux/*/*/config.old
+PetaLinux/*/*/rootfs_config.old
+PetaLinux/build/
+PetaLinux/images/linux/
+PetaLinux/pre-built/linux/
+PetaLinux/.petalinux/*
+!PetaLinux/.petalinux/metadata
+PetaLinux/components/plnx_workspace
+PetaLinux/components/yocto/*
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Vivado
+Vivado/WorkingDir/*
+!Vivado/WorkingDir/.gitkeep
